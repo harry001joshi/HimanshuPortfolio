@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himanshu - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Himanshu's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="left_section">
+          Hi, My name is <samp class="purple">Himanshu</samp>
+          <div>and I am a Passionate</div>
+          <span id="element"></span>
+        </div>
+
+        <div class="right_section">
+          <img src="/img/bg.png" alt="dev_icon" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection" id="about">
+        <span class="gray">Qualification</span>
+        <h1>Education</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="/img/top.png" alt="" />
+            <div class="vertical-text">High School(2017-18)</div>
+            <div class="vertical-desc">School-VIPS Baddi(H.P) CBSE 73.08%</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/img/top.png" alt="" />
+            <div class="vertical-text">Inter School(2019-20)</div>
+            <div class="vertical-desc">School-GMSSS Chandigarh CBSE 83%</div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/img/top.png" alt="" />
+            <div class="vertical-text">Graduation(2020-23)</div>
+            <div class="vertical-desc">
+              College-PGGC-11(CH) Panjab University 75.07%
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/img/top.png" alt="" />
+            <div class="vertical-text">Post Grad.(2023-25)</div>
+            <div class="vertical-desc">College-VIT Bhopal(M.P) Ongoing</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Contact Me:</p>
+      <div>
+        <a href="/">i.joshihimanshu@gmail.com</a>
+        <span>|</span>
+        <a href="/">+91 6239911984</a>
+      </div>
+      <p>&copy; 2023 Himanshu | All Rights Reserved</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Java Enthusiast"],
+        typeSpeed: 60,
+        loop:true,
+      });
+    </script>
+  </body>
+</html>
